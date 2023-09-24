@@ -18,6 +18,7 @@
   - [Implantação:](#implantação)
   - [Pré-requisitos para executar o projeto:](#pré-requisitos-para-executar-o-projeto)
     - [Ambiente virtual e Dependências:](#ambiente-virtual-e-dependências)
+    - [Configurando Variáveis De Ambiente:](#configurando-variáveis-de-ambiente)
 
 
 ### Contextualização:
@@ -81,4 +82,19 @@ source .venv/bin/activate
 Instale as dependências:
 ```
 pip install -r requirements.txt
+```
+
+### Configurando Variáveis De Ambiente:
+Crie o arquivo .env:
+```
+touch .env
+```
+
+Adicione ao arquivo .env as variáveis de ambiente:
+```
+DBNAME=db_name_example
+USER=user_name_example
+PASSWORD=*****
+HOST=localhost
+PORT=5432
 ```
