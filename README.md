@@ -8,8 +8,8 @@
   - [Entendimento do Negócio:](#entendimento-do-negócio)
   - [Entendimento dos Dados:](#entendimento-dos-dados)
     - [Schemas:](#schemas)
-    - [Variáveis:](#variáveis)
     - [Consulta SQL:](#consulta-sql)
+    - [Variáveis:](#variáveis)
     - [Verificando as Dimensões do DataFrame:](#verificando-as-dimensões-do-dataframe)
     - [Describe:](#describe)
     - [Verificando Valores Nulos:](#verificando-valores-nulos)
@@ -78,17 +78,10 @@ Em resumo, o modelo de negócios representado pela base de dados Sakila é uma l
 ### Schemas:
 ![sdfsf](img/sakila-schema.png)
 
-### Variáveis:
-| Coluna           | Descrição                                             |
-| ---------------- | ----------------------------------------------------- |
-| title            | O título do filme.                                    |
-| rental_date      | A data e a hora em que o artigo foi alugado.          |
-| return_date      | A data e a hora em que o artigo foi devolvido.        |
-
 ### Consulta SQL:
 ```sql
 SELECT
-	f.title,
+    f.title,
     r.rental_date,
     r.return_date
 FROM rental r
@@ -98,6 +91,14 @@ join
 join
 	film f on i.film_id = f.film_id
 ```
+
+### Variáveis:
+| Coluna           | Descrição                                             |
+| ---------------- | ----------------------------------------------------- |
+| title            | O título do filme.                                    |
+| rental_date      | A data e a hora em que o artigo foi alugado.          |
+| return_date      | A data e a hora em que o artigo foi devolvido.        |
+
 
 ### Verificando as Dimensões do DataFrame:
 ```python
