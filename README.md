@@ -254,7 +254,7 @@ E não é só isso; você também pode combinar todos esses filtros para obter r
 
 No próximo dashboard, podemos observar o ticket médio dos nossos clientes, o que é crucial para elaborar uma estratégia de negócios adequada. Também apresentamos o tempo médio em dias que nossos clientes mantêm os filmes alugados, juntamente com o faturamento. Por fim, temos um gráfico de barras que nos permite visualizar os 7 filmes mais alugados em nossas lojas. Não se esqueça de que você pode filtrar por categoria e por loja, proporcionando mais usabilidade e flexibilidade nas análises para nossos clientes.
 
-Por fim, temos o dashboard da tabela dinâmica com os nomes dos filmes, um filtro de categoria e outro de loja, além de um gráfico que mostra as categorias mais alugadas.
+Por fim, temos o dashboard da tabela dinâmica com os nomes dos filmes, um filtro de categoria e outro de loja.
 
 Em futuras versões, planejamos adicionar um filtro de mês e outro de ano. No entanto, no momento, não faz sentido implementar essas funcionalidades, pois temos poucos meses em nossa base de dados e apenas o ano de 2022. Adicionar essas funcionalidades prematuramente só resultaria em poluição visual sem trazer benefícios significativos.
 
